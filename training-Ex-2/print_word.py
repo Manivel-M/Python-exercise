@@ -1,4 +1,4 @@
 user='gnu-linux is rule the world now'
-for count_1 in user:
-	if '-' not in count_1 and ' ' not in count_1:
-		print count_1
+for letter in user:
+	if '-' not in letter and ' ' not in letter:
+		print letter
