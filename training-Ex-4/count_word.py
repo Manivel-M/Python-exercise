@@ -9,9 +9,7 @@ def count_word(string):
 	result = 0
 	string_1 = list(string)
 	for count in range(len(string_1)):
-		if string_1[count-1] =='c' and string_1[count] == 'o':
-			count = count + 1
-		if string_1[count-3] == 'c' and string_1[count-2] == 'o' and string_1[count] == 'e':
+		if string_1[count] == 'c' and string_1[count+1] == 'o' and string_1[count+3] == 'e':
 			result = result + 1
 	return result
 
