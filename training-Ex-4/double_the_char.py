@@ -2,8 +2,8 @@
 double_char(The) = TThhee"""
 
 def double_func(user_input):
-	usr_copy = list(user_input)
-	for count in range(len(usr_copy)):
-		usr_copy[count] = usr_copy[count] * 2
-	return ''.join(usr_copy)
+	new_string = ""
+	for char in user_input:
+		new_string += char * 2
+	return new_string
 print double_func(raw_input("Enter the string :"))
