@@ -1,2 +1,4 @@
 # Python-exercise
-print "i m manivel"
+
+
+Attached code will help to file handling
