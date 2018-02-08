@@ -1,2 +1,5 @@
 # Python-exercise
-print "i m manivel"
+
+
+
+Attached codes are developed using python and each branch have separate concept.
