@@ -1,4 +1,4 @@
-"""Write the progrum to break the loop if user give n as input, if y continue"""
+"""Write the program to break the loop if user give n as input, if y continue"""
 
 no = 'n'
 yes = 'y'
